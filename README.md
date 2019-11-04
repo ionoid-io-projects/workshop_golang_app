@@ -146,11 +146,11 @@ https://www.freecodecamp.org/news/learning-go-from-zero-to-hero-d2a3223b3d86/
 Using https://github.com/stianeikeland/go-rpio it's possible to interacte with gpio pin
 So refer to the documentation of the project to read more
 
-To run your golang program inside raspberry pi you must compile with raspberry pi arch reference like following
+To run your golang program inside Raspberry Pi you must compile with Raspberry Pi arch reference like following
 ```
 env GOOS=linux GOARCH=arm GOARM=6 go build your_program.go
 ```
-This command line will compile your program for arm6 arch which is the arch of raspberry pi 0
+This command line will compile your program for arm6 arch which is the arch of Raspberry Pi 0
 
 Raspberry pi 3 b use arm7 so you will need to replace environement var GOARM=6 by GOARM=7. 
 ```
